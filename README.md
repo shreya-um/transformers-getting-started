@@ -6,7 +6,7 @@ Basics: [Transformer Neural Networks: A Step-by-Step Breakdown](https://builtin.
   2. Create a python venv `python3.11 -m venv .transformersEnv`.
   3. source the venv `source .transformersEnv/bin/activate`.
   4. install dependencies ` pip install -r requirements.txt`.
-  5. run convert script `python convert.py`
+  5. run convert script `python bert-convert.py`
 This script creates a onnx folder with Bert onnx model with precision (float32). \
 Use [Netron](https://netron.app/) to verify and visualise onnx model
 
