@@ -6,3 +6,4 @@ torch
 torchaudio
 torchvision
 transformers
+wget
