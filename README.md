@@ -11,9 +11,8 @@ This script creates a onnx folder with Bert onnx model with precision (float32).
 Use [Netron](https://netron.app/) to verify and visualise onnx model
 
 ## onnx to MLIR (LLVM dialect)
-1. Use [onnx-mlir](https://github.com/onnx/onnx-mlir) to convert onnx models to LLVM dialect.
-  1. [Build on local](https://github.com/onnx/onnx-mlir/blob/main/docs/BuildONNX.md)
-  2. for quick conversions use Docker img [Instructions](https://github.com/onnx/onnx-mlir/blob/main/docs/Docker.md)
+Use [onnx-mlir](https://github.com/onnx/onnx-mlir) to convert onnx models to LLVM dialect.
+1. [Build on local](https://github.com/onnx/onnx-mlir/blob/main/docs/BuildONNX.md) or for quick conversions use Docker img [Instructions](https://github.com/onnx/onnx-mlir/blob/main/docs/Docker.md)
 2. Follow [Environment Variables Setup](https://github.com/onnx/onnx-mlir/blob/main/docs/mnist_example/README.md#environment-variables-setup)
 3. To generate LLVM Dialect`onnx-mlir -O3 --EmitLLVMIR <onnx model file>`
 4. (optional) [creating executable binary example](https://github.com/onnx/onnx-mlir/blob/main/docs/mnist_example/README.md)
