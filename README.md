@@ -12,10 +12,8 @@ Basics: [Transformer Neural Networks: A Step-by-Step Breakdown](https://builtin.
 
   5. run convert script `python bert-convert.py` or `python bert_pretrained.py` \
   bert-convert.py script creates a onnx folder with Bert onnx model `bert-base-cased.onnx` with precision (float32) \
-
-  bert_pretrained.py script creates a onnx_models folder with Bert onnx model i.e.,  `bert-base-cased-squad.onnx` \
-
-  Use [Netron](https://netron.app/) to verify and visualise onnx model
+bert_pretrained.py script creates a onnx_models folder with Bert onnx model i.e.,  `bert-base-cased-squad.onnx` \
+Use [Netron](https://netron.app/) to verify and visualise onnx model
 
 ## onnx to MLIR (LLVM dialect)
 Use [onnx-mlir](https://github.com/onnx/onnx-mlir) to convert onnx models to LLVM dialect.
