@@ -4,11 +4,11 @@ Basics: [Transformer Neural Networks: A Step-by-Step Breakdown](https://builtin.
 ## Install all python dependencies (tested on python 3.11)
   1. clone the repo, go the folder
 
-  2. Create a python venv `python3.11 -m venv .transformersEnv`.
+  2. Create a python venv `python3.11 -m venv .transformersEnv`
 
-  3. source the venv `source .transformersEnv/bin/activate`.
+  3. source the venv `source .transformersEnv/bin/activate`
 
-  4. install dependencies ` pip install -r requirements.txt`.
+  4. install dependencies ` pip install -r requirements.txt`
 
   5. run convert script `python bert-convert.py` or `python bert_pretrained.py`
   bert-convert.py script creates a onnx folder with Bert onnx model `bert-base-cased.onnx` with precision (float32). \
