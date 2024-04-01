@@ -21,3 +21,11 @@ Use [onnx-mlir](https://github.com/onnx/onnx-mlir) to convert onnx models to LLV
 1. Build MLIR on local (preffered debug version) [MLIR getting started](https://mlir.llvm.org/getting_started/)
 2. (Optional) set path variable to mlir project bin folder
 3. use `mlir-translate <input-file-LLVM-dialect> --mlir-to-llvmir -o <output.ll>` to get LLVM IR.
+
+###### Other useful docs
+
+1. [Transformer Model Optimization (onnx runtime)](https://onnxruntime.ai/docs/performance/transformers-optimization.html)
+
+2. [Pytorch to onnx export](https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html)
+
+   

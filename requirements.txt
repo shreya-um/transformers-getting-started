@@ -1,0 +1,8 @@
+numpy
+onnx
+onnxruntime
+pathlib
+torch
+torchaudio
+torchvision
+transformers
